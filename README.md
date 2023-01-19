@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Tumi Website</title>
+  <title>Dolphin Website</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Tumi</h1>
+    <h1>Dolphin Website</h1>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <h2>Welcome to Tumi</h2>
-    <p>Tumi is a leading brand in travel and lifestyle products.</p>
+    <h2>Welcome to the Dolphin Website</h2>
+    <p>Dolphins are intelligent and friendly aquatic mammals.</p>
+    <img src="dolphin.jpg" alt="A dolphin swimming in the ocean">
   </main>
   <footer>
-    <p>Copyright Tumi</p>
+    <p>Copyright Dolphin Website</p>
   </footer>
   <script src="script.js"></script>
 </body>
@@ -29,10 +29,13 @@
 body {
   font-family: Arial, sans-serif;
   color: #333;
+  background-image: url("ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header {
-  background-color: #E60073;
+  background-color: #0077be;
   color: #fff;
   padding: 1em;
 }
@@ -59,10 +62,11 @@ header nav ul li a {
 
 main {
   padding: 1em;
+  text-align: center;
 }
 
 footer {
-  background-color: #E60073;
+  background-color: #0077be;
   color: #fff;
   padding: 1em;
   text-align: center;
